@@ -1,8 +1,142 @@
 
+@font-face {
+  font-family: "PT Sans Bold";
+  src: url('fonts/ptsans-700.woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body, html{
+  padding:0;
+  margin:0;
+}
+
+.header{
+  display: flex;
+  height: 70px;
+  padding-left: 70px;
+  padding-right: 70px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-left{
+  display: flex;
+  align-items: center;
+  height: 70px;
+}
 
 
 
-/* temporary */
+.header .logo{
+  display: inline-block;
+  background-image: url("./img/logo.png");
+  width: 139px;
+  height: 70px;
+}
+
+.main-navigation{
+  display: flex;
+  height:70px;
+  align-items: center;
+}
+
+
+.main-menu{
+  display:flex;
+  list-style: none;
+  height: 70px;
+}
+
+.main-menu li{
+  display: flex;
+}
+
+.main-menu li:not(:first-child){
+  margin-left: 20px;
+}
+
+.main-menu a{
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 700px;
+  font-family: "PT Sans Bold";
+  color: black;
+  align-self:center;
+  padding:0;
+}
+
+li:has(> a:active ) {
+  border-bottom:2px solid #756257;
+}
+
+
+.main-menu li:first-child {
+ border-bottom: 2px solid #756257  ;
+}
+
+
+.header-right{
+  display: flex;
+  align-items: center;
+  height: 70px;
+}
+
+.user-menu{
+  display: flex;
+}
+
+.user-menu li{
+  list-style: none;
+}
+
+.user-menu .search-btn{
+  display: block;
+  background-image:url("./img/search.png");
+  width: 42px;
+  height: 70px;
+}
+
+.user-menu .likes-btn{
+  display: block;
+  background-image:url("./img/favorite.png");
+  background-repeat:no-repeat;
+  background-position: 50% 50%;
+  width: 42px;
+  height: 70px;
+  text-decoration: none;
+}
+
+.header-btn{
+  width:160px;
+  height:37px;
+  background-color: #756257;
+  border-radius: 4px;
+
+  font-size: 16px;
+  font-weight: 700px;
+  font-family: "PT Sans Bold";
+  color: white;
+  margin-left: 20px;
+}
+
+
+.likes-display{
+  display: flex;
+  width:20px;
+  height:20px;
+  background-color: #7DB54F;
+  border-radius: 10px;
+  font-size: 10px;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  line-height: 13px;
+transform: translate(120%, 75%);
+}
+/* temporary  --------------------- ---------------- */
+/*
 .header, .header *{
   outline: 1px solid red;
 }
+*/
