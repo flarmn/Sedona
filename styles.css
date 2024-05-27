@@ -549,6 +549,53 @@ text-align: center;
   text-align: center;
 }
 
+
+
+.hotel-search{
+  display:flex;
+  width: 100%;
+  height: 417px;
+  background:white;
+  justify-content:center;
+  align-items: center;
+  margin-top:60px;
+}
+
+.hotel-search-content{
+  width:40%;
+  height:fit-content;
+
+}
+
+.hotel-search h5{
+  font-size: 30px;
+  line-height: 36px;
+  font-family: "PT Sans Bold";
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom:60px;
+}
+
+.hotel-search p{
+  font-family: "PT Sans Normal";
+  font-size: 22px;
+  line-height: 26px;
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.hotel-search button{
+width: 100%;
+height: 60px;
+font-family: "PT Sans Bold";
+font-size: 20px;
+line-height: 36px;
+color: white;
+background: #756257;
+text-transform: uppercase;
+}
+
+
 /* temporary  --------------------- ---------------- */
 /*
 .header, .header *{
